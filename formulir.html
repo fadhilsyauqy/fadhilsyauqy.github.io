@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulir.css">
+    <title>UTS Formulir 109</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <div class="logo" >
+                <h3>FormuLir !!</h3>
+            </div>
+            <ul >
+                <li><a href="formulir.html">Formulir</a></li>
+                <li><a href="tabel.html">Tabel</a></li>
+                <li><a href="index.html#konten">Konten</a></li>
+                <li><a href="index.html#tentang">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="input">
+        <h1>DAFTAR</h1>
+        <hr>
+        <form action="tabel.html" method="GET">
+            <label for="nama">Nama</label><br>
+            <input type="text" name="nama" required><br>
+
+            <label for="nim">NIM</label><br>
+            <input type="number" name="number"><br>
+            
+            <label for="prodi">Program Studi</label><br>
+            <input type="text" name="prodi"><br>
+
+            <label for="alamat">Alamat</label><br>
+            <textarea id="alamat" name="alamat" required></textarea><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="emai" required><br>
+            
+            <label for="password" >Password</label><br>
+            <input id="password" type="password" name="password" required>
+
+            <button type="submit">DAFTAR</button>
+        </form>
+    </main>
+
+    <footer>
+        <p> 
+            UTS Pemrograman Web Copyright &copy;2023; Designed by Rahmat Fadhil Syauqy.A
+        </p>
+    </footer>
+    
+</body>
+</html>

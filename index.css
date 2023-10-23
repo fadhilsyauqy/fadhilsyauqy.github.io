@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Massiri';
+    src: url(Font/Massiri.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(Assets/backgrond.jpg);
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Gotu', sans-serif;
+    margin-top: 80px;
+}
+
+nav{
+    display: flex;
+    background-color: #876546;
+    justify-content: space-around;
+    color: #f4dfba;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-weight: 800;
+    border:5px #eec373 solid;
+
+}
+
+nav .logo{
+    font-family: Massiri;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    gap: 20px;          
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    align-items: center;
+    text-decoration: none;
+    color:#f4dfba;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover{
+    border: #eec373 solid 2px;
+    padding: 4px;
+    border-radius: 5px;
+    transition:  0.3s ease-in-out;
+    transition-delay: .3s ;
+}
+
+
+
+/* Tablet */
+@media screen and (max-width : 900px){
+    nav ul {
+        width: 55%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width : 576px){
+    nav ul {
+        width: 80%;
+    }
+
+    nav .logo{
+        display: none;
+    }
+
+    .profile {
+        display: none;
+        max-width: none;
+        float: none;
+    }
+
+    .isi{
+        margin-left: 0;
+        padding-left: 0;
+        max-width: 100% !important;
+    }
+}  
+
+
+.cinta{
+    border: 3px #eec373 solid;
+    border-radius: 15px;
+    background-color: #876546;
+    color:#f4dfba;
+    padding: 15px;
+    margin-bottom:  25px;
+}
+
+.cinta h1{
+    text-align: center;
+    margin: 6px;
+    font-family: Massiri;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+.cinta p{
+    font-size: 16px;
+}
+
+.profile{
+    max-width:25% ;
+    text-align: center;
+    border: 4px solid #eec373;
+    background-color:#876546;
+    border-radius: 16px;
+    left: 0;
+    float: left;
+}
+
+.profile h1{
+    margin:  12px 8px;
+    color: #f4dfba;
+    font-family: Massiri;
+    font-size: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.profile h2{
+    margin: 10px 0 ;
+    color: #f4dfba;
+}
+
+.profile p{
+    text-align: left;
+    margin: 20px 5px 35px 30px ;  
+    color: #f4dfba;
+    font-size: 20px;
+}
+
+.fotosaya{
+    max-width: 70%;
+    border-radius: 15px;
+    margin-bottom: 6px;
+}
+
+.icon{
+    margin: 10px 0;
+}
+
+.icon a{
+    font-size: 0;
+}
+
+.gambar1{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 52px;
+    height: 54px;
+}
+
+
+
+.gambar2{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 52px;
+    height: 54px;
+    margin-left: 15px;
+}
+
+
+.sumatera{
+    margin-top: 40px;
+    max-width: 20%; 
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 3px;
+    transform: rotate(-3deg);
+}
+
+.kalimantan{
+    margin-top: 40px;
+    max-width: 20%;
+    height: 210px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.sulawesi{
+    max-width: 15%;
+    height: 180px;
+    margin-left: -40px;
+    border-radius: 4px;
+    margin-top: 120px;
+    margin-right: -90px;
+    float: left;
+}
+
+.papua{
+    margin-top: 10px;
+    max-width: 15%; 
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 4px;
+    margin-top: 140px;
+    margin-right: 3px;
+    transform: rotate(-2deg);
+    margin-left: 80px;
+}
+
+.jawa{
+    max-width: 30% ; 
+    border-radius: 4px;
+    margin-top: -180px;
+    transform: rotate(-5deg);
+    margin-right: 2px;
+    margin-left: 200px;
+}
+
+.isi{
+    margin-left: 27%;
+    padding-left: 12%;
+    border: 5px #876546 solid;
+    border-radius: 15px;
+}
+
+
+.deskripsi{
+    border: 3px #eec373 solid;
+    margin: -4%  0  0 27% ;
+    border-radius: 15px;
+    background-color: #876546;
+    color:#f4dfba;
+    padding: 15px;
+}
+
+.deskripsi h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family: Massiri;
+}
+
+.deskripsi p{
+    padding: 5px;
+    font-size: 19px;
+}
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    width: 60px;
+    height: 60px;
+    background-color: #eec373;
+    border-radius:15px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 15px;
+    border:3px #eec373 solid;
+    border-radius:5px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #876546;
+    color: #f4dfba;
+    font-weight: 700;
+}
