@@ -169,4 +169,6 @@ footer{
     color: #f4dfba;
     font-weight: 700;
     bottom: 0;
+    width: 100%;
+    position: fixed;
 }
