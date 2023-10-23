@@ -244,6 +244,7 @@ nav ul li a:hover{
     border-radius: 15px;
     right: 0;
     position: sticky;
+    border-bottom: none;
 }
 
 
