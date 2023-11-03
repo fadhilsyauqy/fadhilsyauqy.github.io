@@ -29,24 +29,24 @@
         <hr>
         <form action="tabel.html" method="GET">
             <label for="nama">Nama</label><br>
-            <input type="text" name="nama" required><br>
+            <input type="text" name="nama" id="nama" required><br>
 
             <label for="nim">NIM</label><br>
-            <input type="number" name="number"><br>
+            <input type="number" name="number" id="nim" required><br>
             
             <label for="prodi">Program Studi</label><br>
-            <input type="text" name="prodi"><br>
+            <input type="text" name="prodi" id="prodi"><br>
 
             <label for="alamat">Alamat</label><br>
-            <textarea id="alamat" name="alamat" required></textarea><br>
+            <textarea  name="alamat" id="alamat" required></textarea><br>
 
             <label for="email">Email</label><br>
-            <input type="email" name="emai" required><br>
+            <input type="email" name="email" id="email" required><br>
             
             <label for="password" >Password</label><br>
-            <input id="password" type="password" name="password" required>
+            <input id="password" type="password" name="password" id="password" required>
 
-            <button type="submit">DAFTAR</button>
+            <button type="submit" onclick="handleSubmit()">DAFTAR</button>
         </form>
     </main>
 
@@ -55,6 +55,6 @@
             UTS Pemrograman Web Copyright &copy;2023; Designed by Rahmat Fadhil Syauqy.A
         </p>
     </footer>
-    
+    <script src="script/formulir.js"></script>
 </body>
 </html>
