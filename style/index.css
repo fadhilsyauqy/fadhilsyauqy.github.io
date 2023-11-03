@@ -10,7 +10,7 @@
 
 body{
     background-image: url(../Assets/backgrond.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     font-family: 'Gotu', sans-serif;
     margin-top: 80px;
