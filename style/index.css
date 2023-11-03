@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Massiri';
-    src: url(Font/Massiri.ttf);
+    src: url(../Font/Massiri.ttf);
 }
 
 *{
@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url(Assets/backgrond.jpg);
+    background-image: url(../Assets/backgrond.jpg);
     height: 100vh;
     background-size: cover;
     font-family: 'Gotu', sans-serif;
