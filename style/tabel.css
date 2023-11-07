@@ -12,7 +12,7 @@ body{
     background-image: url(../Assets/backgrond.jpg);
     background-size: cover;
     margin-top: 80px;
-    min-height: 100vh;
+    min-height: 70vh;
 
 }
 
@@ -66,24 +66,6 @@ nav ul li a:hover{
     transition:  0.3s ease-in-out;
     transition-delay: .3s ;
 }
-
-/* Tablet */
-@media screen and (max-width : 900px){
-    nav ul {
-        width: 55%;
-    }
-}
-
-/* Mobile */
-@media screen and (max-width : 576px){
-    nav ul {
-        width: 80%;
-    }
-
-    nav .logo{
-        display: none;
-    }
-}  
 
 table{
     margin-left: 80px;
@@ -144,4 +126,27 @@ footer{
     bottom: 0;
     position: fixed;
     width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+        max-height: 25vh;
+    }
+    nav ul{
+        gap: 3;
+        margin-top: .5em; 
+    }
+    table{
+        margin-left: 20px;
+    }
+    .pass{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        margin-right: 1.3em;
+    }   
 }
